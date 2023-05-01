@@ -8,4 +8,12 @@ require("lualine").setup({
 		theme = "catppuccin",
 		globalstatus = true,
 	},
+	sections = {
+		lualine_c = {
+			{
+				"filename",
+				path = 4,
+			},
+		},
+	},
 })
