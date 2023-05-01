@@ -12,6 +12,7 @@ require("lualine").setup({
 		lualine_c = {
 			{
 				"filename",
+				newfile_status = true,
 				path = 4,
 			},
 		},
