@@ -14,6 +14,12 @@ require("lualine").setup({
 				"filename",
 				newfile_status = true,
 				path = 4,
+				symbols = {
+					modified = "🟡",
+					readonly = "🔒",
+					unnamed = "👀",
+					newfile = "👶",
+				},
 			},
 		},
 	},
